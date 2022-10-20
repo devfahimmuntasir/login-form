@@ -22,7 +22,7 @@ body {
   padding: 30px;
   border-radius: 20px;
   /* box-shadow: 14px 14px 20px #cbced1, -14px -14px white; */
-  box-shadow: 14px 14px 20px #233240 ,-14px -14px #3d4e61 ;
+  box-shadow: 14px 14px 20px #233240 ,-10px -10px #3d4e61 ;
 }
 .form-icon {
   color:#ddd;
@@ -34,7 +34,7 @@ body {
   border-radius: 50%;
   margin: 0 auto;
   margin-bottom: 1rem;
-  box-shadow: 7px 7px 10px #1a2c3f , -7px -7px #395068 ;
+  box-shadow: 7px 7px 10px #1a2c3f , -5px -5px #395068 ;
 }
 .title {
   color: #ddd;
@@ -54,8 +54,7 @@ body {
   letter-spacing: 1px;
   border: none;
   border-radius: 50px;
-  box-shadow: inset 6px 6px #061425,inset -6px -6px #395068;
-  display: inline-block;
+  box-shadow: inset 3px 3px #061425,inset -3px -3px #395068;
   width: 100%;
   margin-bottom:25px;
   outline: none;
@@ -75,12 +74,13 @@ body {
   width: 100%;
   border-radius: 50px;
   border: none;
-  box-shadow: 6px 6px 6px #0c1620,-6px -6px 6px #354d68;
+  box-shadow: 6px 6px 6px #0c1620,-6px -6px 4px #354d68; display: inline-block;
+
   padding: 12px;
   margin: 20px 0;
   cursor: pointer;
   transition: all 0.5s ease;
 }
 .btn:hover {
-  color: #0a1725;
+  color: #354d68;
 }
